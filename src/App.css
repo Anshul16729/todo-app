@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  background: skyblue;
+  width: 100%;
+  height: 720px;
+}
+
+.header{
+  /* border:1px solid red; */
+  /* height: 30px; */
+  font-size: 2.5rem;
+  font-weight: bolder;
+  background: #e91e63;
+  padding: 5px;
+}
+
+.footer{
+  /* border:1px solid red; */
+  background: #e91e63;
+  height: 50px;
+  margin-top: 500px;
+  position: fixed;
+}
+
+.body{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body input{
+  /* width: 500px; */
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: 5px solid #e91e63;
+  font-size: 1.5rem;
+  margin:auto;
+}
+
+.body button{
+  height: 40px;
+  padding:8px 10px;
+  border: 2px solid black;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top:10px;
+  padding-bottom: 30px;
+  background:black;
+  color:#fff;
+}
+
+.body button:hover{
+  background: #000;
+  color:#fff;
+}
+
+.body i{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.body i:hover{
+  color: red;
+}
+
+.body #add{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.body #add:hover{
+  color: limegreen;
+}
+
+.body ul li {
+  background:#ddd;
+  /* width: 30%; */
+  margin-left: 510px;
+  list-style: none;
+  margin-bottom: 10px;
+
+}
+
+.body ul li span{
+display: flex;
+}
+
+ #edit:hover{
+  color: limegreen;
+}
